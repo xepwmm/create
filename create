@@ -1,0 +1,24 @@
+#include <kipr/botball.h>
+
+int main()
+{
+    printf("Hello World\n");
+       create_connect();
+    //wait_for_light(0);
+    create_drive_direct (-500, -455);
+    msleep (2150);
+    create_drive_direct(-300,300);
+    msleep (500);
+     create_drive_direct(-500,-500);
+    msleep(970);
+     create_drive_direct(-300,300);
+    msleep (590);
+    create_drive_direct (-100,-95);
+        msleep(2000);
+    create_drive_direct (-100,-100);
+        msleep(2750);
+    create_drive_direct (-0,-0);
+        msleep(2000);
+    
+    return 0;
+}
